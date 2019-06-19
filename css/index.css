@@ -180,7 +180,16 @@ header nav a {
   margin-bottom: 20px;
   background: lightblue;
 
-  @media screen {
+  @media screen and (min-width 321px) and (max-width 480px){
+  display: flex;
+  margin: 25px;
+  border: 1px solid lightgray;
+  padding: 2rem;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+  background: lightblue;
       
   }
     
@@ -204,7 +213,6 @@ header nav a:hover {
     
 }
 .skills{
-    display: flex;
     margin-bottom: 50px;
     width: 500px;
     border: 1px solid gray;
@@ -213,7 +221,7 @@ header nav a:hover {
 }
 
 .list{
-    display: flex;
+   
     
 }
 
