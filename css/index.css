@@ -133,4 +133,62 @@ table {
 html,
 body {
   height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+.container{
+    background: hotpink;
+  
+    
+
+}
+
+
+header {
+    display: flex
+    justify-content: space-around;
+    
+
+}
+
+
+
+strong{
+    
+    font-size: 2rem;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+header nav a {
+  margin: 0 10px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+  background: royalblue;
+    
+}
+
+header nav a:hover {
+    
+      background-color: white;
+      color :hotpink;
+}
+
+.info {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    
+    
 }
