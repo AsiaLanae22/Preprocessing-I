@@ -221,7 +221,7 @@ header nav a:hover {
 }
 
 .list{
-   
+ margin-top: 20px;  
     
 }
 
@@ -235,9 +235,13 @@ header nav a:hover {
     
 }
 
+.work {
+    margin-top: 20px
+}
+
 img{
     justify-content: center;
     height: 25rem;
-    width: 60rem;
+    width: 51rem;
     
 }
