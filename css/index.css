@@ -138,15 +138,23 @@ body {
 
 
 .container{
-    background: hotpink;
+    background: pink;
+    height: 1500px;
+    align-items: center;
+
   
     
 
 }
-
+ 
+h2{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
 
 header {
-    display: flex
+ 
     justify-content: space-around;
     
 
@@ -162,15 +170,19 @@ strong{
 }
 
 header nav a {
-  margin: 0 10px;
+  margin: 25px;
   border: 1px solid lightgray;
-  padding: 20px;
+  padding: 2rem;
   display: inline-block;
   border-radius: 20px;
   color: white;
   text-decoration: none;
   margin-bottom: 20px;
-  background: royalblue;
+  background: lightblue;
+
+  @media screen {
+      
+  }
     
 }
 
@@ -184,11 +196,40 @@ header nav a:hover {
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 300px;
-    border: 1px solid lightgray;
-    padding: 20px;
-    display: inline-block;
+    width: 500px;
+    border: 1px solid gray;
+    padding: 2rem;
+    border-radius: 20px;
+   
+    
+}
+.skills{
+    display: flex;
+    margin-bottom: 50px;
+    width: 500px;
+    border: 1px solid gray;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.list{
+    display: flex;
+    
+}
+
+
+.work-history {
+    margin-bottom: 50px;
+    width: 500px;
+    border: 1px solid gray;
+    padding: 2rem;
     border-radius: 20px;
     
+}
+
+img{
+    justify-content: center;
+    height: 25rem;
+    width: 60rem;
     
 }
