@@ -133,13 +133,14 @@ table {
 html,
 body {
   height: 100%;
-  font-family: 'Mali', cursive;
+  font-family: 'Swanky and Moo Moo', cursive;
+
 }
 
 
 .container{
     background: pink;
-    height: 1500px;
+    height: 150rem;
     align-items: center;
 
   
@@ -148,9 +149,15 @@ body {
 }
  
 h2{
-    font-size: 1.5rem;
+    font-size: 3rem;
     display: flex;
     flex-direction: column;
+}
+
+h1{
+    
+    font-size: 3rem;
+    justify-content: center;
 }
 
 header {
@@ -162,12 +169,7 @@ header {
 
 
 
-strong{
-    
-    font-size: 2rem;
-    margin-top: 50px;
-    justify-content: center;
-}
+
 
 header nav a  {
   margin: 25px;
@@ -179,7 +181,7 @@ header nav a  {
   text-decoration: none;
   margin-bottom: 20px;
   background: lightblue;
-
+  font-size: 1.5rem;
  
 }
   
@@ -201,6 +203,7 @@ header nav a:hover {
     border: 1px solid gray;
     padding: 2rem;
     border-radius: 20px;
+    font-size: 1.25rem;
    
     
 }
@@ -210,10 +213,12 @@ header nav a:hover {
     border: 1px solid gray;
     padding: 2rem;
     border-radius: 20px;
+    font-size: 1.25rem;
 }
 
 .list{
- margin-top: 20px;  
+ margin-top: 20px; 
+ font-size: 1.25rem; 
     
 }
 
@@ -224,6 +229,7 @@ header nav a:hover {
     border: 1px solid gray;
     padding: 2rem;
     border-radius: 20px;
+    font-size: 1.25rem;
     
 }
 
@@ -236,4 +242,8 @@ img{
     height: 25rem;
     width: 51rem;
     
+}
+
+.contact-info{
+    font-size: 1.25rem;
 }
