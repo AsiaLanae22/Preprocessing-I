@@ -133,7 +133,7 @@ table {
 html,
 body {
   height: 100%;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Mali', cursive;
 }
 
 
@@ -169,31 +169,23 @@ strong{
     justify-content: center;
 }
 
-header nav a {
+header nav a  {
   margin: 25px;
-  border: 1px solid lightgray;
+  border: 1px solid gray;
   padding: 2rem;
   display: inline-block;
   border-radius: 20px;
-  color: white;
+  color: hotpink;
   text-decoration: none;
   margin-bottom: 20px;
   background: lightblue;
 
-  @media screen and (min-width 321px) and (max-width 480px){
-  display: flex;
-  margin: 25px;
-  border: 1px solid lightgray;
-  padding: 2rem;
-  border-radius: 20px;
-  color: white;
-  text-decoration: none;
-  margin-bottom: 20px;
-  background: lightblue;
-      
-  }
-    
+ 
 }
+  
+
+
+    
 
 header nav a:hover {
     
